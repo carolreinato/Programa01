@@ -41,7 +41,7 @@ namespace ex_fixacao
                 OrderItem orderItem = new OrderItem(quantity, productPrice, product);
                 order.AddItem(orderItem);
             }
-            Console.WriteLine();
+            Console.WriteLine();  
             Console.WriteLine("----");
             Console.WriteLine(order);
         }
