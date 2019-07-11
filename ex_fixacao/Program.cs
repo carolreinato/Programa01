@@ -42,8 +42,8 @@ namespace ex_fixacao
                 order.AddItem(orderItem);
             }
             Console.WriteLine();
+            Console.WriteLine("----");
             Console.WriteLine(order);
-
         }
     }
 }
